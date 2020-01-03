@@ -1,10 +1,16 @@
-# music-dsl
-UBC CPSC 410 domain-specific language project
+<p align="center">
+<a href="#">
+<img src="../master/static/banner.png" height="150" />
+</a>
+</p>
 
-## Prerequisite
+# music-dsl
+UBC CPSC 410 domain-specific language project by team We just Met
+
+### Prerequisite
 [Yarn](https://yarnpkg.com) - Package manager for Javascript
 
-## Setup
+### Setup
 Install project dependencies
 ```
 yarn install
@@ -23,7 +29,7 @@ Generate static project
 yarn generate
 ```
 
-## EBNF
+### EBNF
 ```
 PROGRAM      ::= TITLE SECTION* PRINT
 PRINT        ::= “ -> ” “{“ [REPEAT, (SECTION (“,” SECTION)*)]+ “}”
@@ -42,12 +48,12 @@ DYNAMIC      ::= ["ppp", "pp", "p", "mp", "mf", "fp", "fz", "rf", "rfz", "sf", "
 DURATION     ::= "dotted-"? ["whole", "half", "quarter", "eighth", "16th", "32nd", "64th", "128th"]
 ```
 
-## Example grammar
-Samples available in `samples` folder
+### Example grammar
+Samples available in [samples](../master/samples) folder
 
-## Built with
-- [Nuxt.js](https://nuxtjs.org/) - The Vue.js Framework
+### Built with
+- [Nuxt.js](https://nuxtjs.org/) - Vue.js Framework
 - [Bootstrap Vue](https://bootstrap-vue.js.org/) - Bootstrap v4 implementation for Vue.js
 
-## Disclaimer
+### Disclaimer
 `music-dsl` should be used for educational purposes only. No exceptions. Team "We Just Met" and developers will not be responsible or liable in any way for use of this project. No liability or responsibility is accepted by the developers and associates. User discretion is advised.
